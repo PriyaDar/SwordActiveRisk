@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51703" started-at="2018-02-14T07:22:03Z" finished-at="2018-02-14T07:22:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51703" started-at="2018-02-14T07:22:03Z" finished-at="2018-02-14T07:22:54Z">
+      <class name="com.sword.search.SearchResults">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sword.search.SearchResults@14acaea5]" name="setup" is-config="true" duration-ms="11138" started-at="2018-02-14T07:22:03Z" finished-at="2018-02-14T07:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:0, instance:com.sword.search.SearchResults@14acaea5]" name="search" duration-ms="2386" started-at="2018-02-14T07:22:14Z" data-provider="provideSearchData" finished-at="2018-02-14T07:22:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ResultsFound]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sword.search.SearchResults@14acaea5]" name="tearDown" is-config="true" duration-ms="666" started-at="2018-02-14T07:22:16Z" finished-at="2018-02-14T07:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sword.search.SearchResults@14acaea5]" name="setup" is-config="true" duration-ms="10223" started-at="2018-02-14T07:22:17Z" finished-at="2018-02-14T07:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:0, instance:com.sword.search.SearchResults@14acaea5]" name="search" duration-ms="9505" started-at="2018-02-14T07:22:27Z" data-provider="provideSearchData" finished-at="2018-02-14T07:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Snappit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ResultsFound]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sword.search.SearchResults@14acaea5]" name="tearDown" is-config="true" duration-ms="777" started-at="2018-02-14T07:22:37Z" finished-at="2018-02-14T07:22:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sword.search.SearchResults@14acaea5]" name="setup" is-config="true" duration-ms="10338" started-at="2018-02-14T07:22:37Z" finished-at="2018-02-14T07:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:0, instance:com.sword.search.SearchResults@14acaea5]" name="search" duration-ms="5767" started-at="2018-02-14T07:22:48Z" data-provider="provideSearchData" finished-at="2018-02-14T07:22:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Regression]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ResultsNotFound]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sword.search.SearchResults@14acaea5]" name="tearDown" is-config="true" duration-ms="869" started-at="2018-02-14T07:22:54Z" finished-at="2018-02-14T07:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sword.search.SearchResults -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
